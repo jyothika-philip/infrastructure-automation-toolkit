@@ -2,7 +2,7 @@ System Inventory Report
 -----------------------
 Computer Name: CLIENT-01
 Current User: lab\testuser
-Generated On: 06/16/2026 23:37:36
+Generated On: 06/17/2026 01:58:02
 
 ===SYSTEM INFORMATION===
 Operating System: Microsoft Windows 11 Pro
@@ -12,11 +12,10 @@ Model: VirtualBox
 Total RAM (GB): 3
 
 ===NETWORK INFORMATION===
-IP Address: 192.168.56.102
+IP Address: 10.0.3.15 192.168.56.102
 
 ===Storage INFORMATION===
 Drive: C
-Drive: 16.09
-Drive: 23.05
-Disk Usage (%): 58.89
-
+Drive: 12.8
+Drive: 26.33
+Disk Usage (%): 67.29
