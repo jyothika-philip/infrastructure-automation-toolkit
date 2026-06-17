@@ -1,1 +1,2 @@
-
+"ComputerName","CurrentUser","OperatingSystem","OSVersion","Manufacturer","Model","RAM_GB","IPAddress","Drive","FreeSpaceGB","UsedSpace_GB","DiskUsagePercent"
+"CLIENT-01","lab\testuser","Microsoft Windows 11 Pro","10.0.26200","innotek GmbH","VirtualBox","3","System.Object[]","C","12.8","26.33","67.29"
