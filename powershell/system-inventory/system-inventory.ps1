@@ -18,7 +18,7 @@ $OS = Get-CimInstance Win32_OperatingSystem
 $ComputerSystem = Get-CimInstance Win32_ComputerSystem
 $IP = Get-NetIPAddress -AddressFamily IPv4 | Where-Object {$_.IPAddress -ne "127.0.0.1"}
 
-$Drive = Get-PSDrive -PSProvider FileSystem
+$Drive = Get-PSDrive -Name C
 $FreeSpaceGB = [math]::Round($Drive.Free / 1GB, 2)
 $UsedSpaceGB = [math]::Round($Drive.Used / 1GB, 2)
 $DiskUsagePercent = [math]::Round(($Drive.Used /($Drive.Used + $Drive.Free))*100, 2)
