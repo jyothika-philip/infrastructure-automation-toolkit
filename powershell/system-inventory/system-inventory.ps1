@@ -22,7 +22,7 @@ $Drive = Get-PSDrive -Name C
 $FreeSpaceGB = [math]::Round($Drive.Free / 1GB, 2)
 $UsedSpaceGB = [math]::Round($Drive.Used / 1GB, 2)
 $DiskUsagePercent = [math]::Round(($Drive.Used /($Drive.Used + $Drive.Free))*100, 2)
-$TotalRAMGB = [math]::Round([math]::Round($ComputerSystem.TotalPhysicalMemory / 1GB, 2))
+$TotalRAMGB = [math]::Round($ComputerSystem.TotalPhysicalMemory / 1GB, 2)
 
 Add-Content -Path $ReportPath -Value "System Inventory Report"
 Add-Content -Path $ReportPath -Value "-----------------------"
