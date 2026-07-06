@@ -45,6 +45,7 @@ The objective of this project was to gain hands-on experience with PowerShell au
 The current script monitors:
 
 - Print Spooler
+- Portable Device Enumerator Service
 - Windows Time
 - DNS Client
 
@@ -74,6 +75,7 @@ Example:
 ```powershell
 $Services = @(
     "Spooler",
+    "WPDBusEnum",
     "W32Time",
     "Dnscache"
 )
