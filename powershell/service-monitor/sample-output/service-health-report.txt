@@ -1,18 +1,16 @@
 Service Health Report
 ---------------------
-Generated On: 07/03/2026 03:42:17
+Generated On: 07/04/2026 16:11:13
 
-✅ Print Spooler is running.
-❌ Portable Device Enumerator Service is stopped.
-✅ Windows Time is running.
-❌ Application Management is stopped.
+[OK] Print Spooler is running.
+[ERROR] Portable Device Enumerator Service is stopped.
+[OK] Windows Time is running.
+[OK] Application Management is running.
 
 Summary
 -------
-Running Services: 2
-Stopped Services: 2
+Running Services: 3
+Stopped Services: 1
 
 Stopped Services:
 - Portable Device Enumerator Service
-- Application Management
-
