@@ -176,3 +176,15 @@ The automation script successfully:
 ## Project Context
 
 This project is part of the **Infrastructure Automation Toolkit**, a collection of PowerShell and infrastructure automation projects focused on Windows administration, Active Directory, monitoring, reporting, and automation.
+
+### Completed Mini Projects
+
+- ✅ System Inventory Automation
+
+### Upcoming Mini Projects
+
+- Windows Service Monitoring
+- Active Directory User Automation
+- Disk Space Monitoring
+- Backup Automation
+- Linux Health Monitoring
