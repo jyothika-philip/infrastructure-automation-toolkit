@@ -35,14 +35,14 @@ foreach ($ServiceName in $Services)
 
     if ($Service.Status -eq "Running")
     {
-        Write-Host "✅ $($Service.DisplayName) is running." -ForegroundColor Green
-        Add-Content -Path $ReportPath -Value "✅ $($Service.DisplayName) is running."
+        Write-Host "[OK] $($Service.DisplayName) is running." -ForegroundColor Green
+        Add-Content -Path $ReportPath -Value "[OK] $($Service.DisplayName) is running."
         $RunningCount++
     }
     else
     {
-        Write-Host "❌ $($Service.DisplayName) is stopped." -ForegroundColor Red
-        Add-Content -Path $ReportPath -Value "❌ $($Service.DisplayName) is stopped."
+        Write-Host "[ERROR] $($Service.DisplayName) is stopped." -ForegroundColor Red
+        Add-Content -Path $ReportPath -Value "[ERROR] $($Service.DisplayName) is stopped."
         $StoppedCount++
         $StoppedServices += $Service.DisplayName
     }
