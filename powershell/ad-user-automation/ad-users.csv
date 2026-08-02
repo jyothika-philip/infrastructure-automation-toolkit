@@ -1,1 +1,6 @@
-
+FirstName,LastName,Username,Department
+Rahul,Menon,rmenon,IT
+Meera,Joseph,mjoseph,HR
+Daniel,Thomas,dthomas,Finance
+Nina,George,ngeorge,Marketing 
+Invalid,User,,
