@@ -251,7 +251,7 @@ The script successfully:
 
 ### Script Execution
 
-![Script Execution](images/script-run.png)
+![Script Execution](images/script-execution.png)
 
 ### Active Directory Users Created
 
