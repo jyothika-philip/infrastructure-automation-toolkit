@@ -54,7 +54,8 @@ FirstName,LastName,Username,Department
 Rahul,Menon,rmenon,IT
 Meera,Joseph,mjoseph,HR
 Daniel,Thomas,dthomas,Finance
-Nina,George,ngeorge,Marketing
+Nina,George,ngeorge,Marketing 
+Invalid,User,,Testing
 ```
 
 Each CSV row becomes a PowerShell object with properties such as:
